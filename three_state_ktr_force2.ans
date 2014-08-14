@@ -1,0 +1,86 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   8.83E5 1.0E4
+ 2 koff      f   74.1  1.0
+ 3 f         f   5.0  0.1
+ 4 g         t   1.98   0.0001
+ 5 u         f   0.1  0.0001
+ 6 v         f   12.2  0.0001
+ 7 w         t   0.8  0.0001
+ 8 x         f   2.8  0.0001
+ 9 z         f   0.3  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 pCa      t   4.5    1.0
+ 11 offset t 0.0 -0.5
+ 12 scale t 1.0 0.2
+ 13 bounds t 1.0 0.4
+ 14 pCa      t   6.25   5.0
+ 15 scale f 3.1 0.2
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    moss_high.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			12
+  			# end
+			10
+  			# end
+ 		# end function 1
+ 		13
+ 	# end functions
+ 	13
+ % Experiment 2
+    moss_low.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			15
+  			# end
+			14
+  			# end
+ 		# end function 1
+ 		13
+ 	# end functions
+ 	13
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

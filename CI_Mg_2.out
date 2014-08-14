@@ -1,0 +1,11 @@
+ CI_Mg_2.out                                                             
+ Number of iterations:           10
+ Global Chi Sqr:    1.613034    
+ Analysis time:    9.304688    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha1          1.0000E+00
+   2 tau1            7.3414E+00 +/-   3.780E+00
+   3 alpha2          3.8454E+00 +/-   3.909E+00
+   4 tau2            1.5310E+00 +/-   8.914E-01
+   5 bounds1         2.9982E+01 +/-   2.711E+01
+   6 qshift1         1.0000E+00

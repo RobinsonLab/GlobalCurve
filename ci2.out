@@ -1,0 +1,13 @@
+ ci2.out                                                                 
+ Number of iterations:          100
+ Global Chi Sqr:    2.338346    
+ Analysis time:    7.468750    
+   #  Parameter      Value      Standard Deviation Est.
+   1 pKd             5.1623E+00 +/-   1.738E+00
+   2 n               8.1016E-01 +/-   1.103E+00
+   3 pKd2            3.9657E+00 +/-   4.523E-01
+   4 n2              2.5110E+00 +/-   6.687E+00
+   5 f_min           6.6360E-01 +/-   5.221E-01
+   6 f_max           3.5763E-01 +/-   2.620E-01
+   7 bounds1         1.0000E+00
+   8 bounds2         5.2054E-01 +/-   2.348E+00

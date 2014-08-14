@@ -1,0 +1,52 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 EGTAT	f   2.1E-3 1.0E-3
+ 2 Cao      f   4.0E-6 1.0E-7
+ 3 Fmin     t   1.77 0.5
+ 4 Fmax     f   45.0 30.0
+ 5 Ka		f	1.0E6 1.0E5
+ 6 MgT	    t   4.0E-3 1.0E-4
+ 7 conc     t   0.009 1.0E-4
+ 8 vol1		f   6.5   1.0
+ 9 vol2		t   1200. 1.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 bounds t 1.0 0.4
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    gr2.txt
+ 	% begin functions
+	1.0 bnd pump_# Fluor
+ 		% function 1
+ 		simulate_ca_gr_titr
+ 			1
+			2
+			3
+			4
+			5
+  			# end
+ 			6
+			7
+			8
+			9
+  			# end
+		# end function 1
+ 		10
+ 	# end functions
+ 	10
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

@@ -1,0 +1,22 @@
+ ida_3.out                                                               
+ Number of iterations:            5
+ Global Chi Sqr:    1.062958    
+ Analysis time:    41.35937    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha1          1.4683E+00
+   2 tau1            1.8223E-01
+   3 alpha2          1.9583E+00
+   4 tau2            2.0518E+00
+   5 alpha3          1.5082E+00
+   6 tau3            5.3787E+00
+   7 R0              2.3000E+01
+   8 mu1             1.4221E+01 +/-   4.272E+01
+   9 sigma1          8.5169E+00 +/-   2.636E+01
+  10 frac            9.4836E-01 +/-   3.782E-01
+  11 bounds1         1.6601E+03 +/-   6.543E+03
+  12 qshift1         6.1403E-01 +/-   2.742E+00
+Experiment( 1, 1)
+ For the observable ET range:
+ Mean =  17.296,hw =  15.211, mean TE =0.762
+ For the distances 0 to rmax:
+ Mean =  15.106,hw =  18.114, mean TE =0.802

@@ -1,0 +1,41 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min max
+ 1 K1       f  2.87E4 1000.0 500000.0
+ 2 K2a	    f  5.59 1.0 1000.0
+ 3 f_min1   t	1.0 0.8 1.2
+ 4 f_max1   t	0.0 -0.2 0.2
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 5 bounds t 1.0 0.4 2.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    CI_titr.dat
+ 	% begin functions
+	1.0 bnd pCa Fluor
+ 		% function 1
+ 		three_state_simple_model
+ 			3
+			4
+			1
+			2
+  			# end
+ 		# end function 1
+ 		5
+	# end functions
+ 	5
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

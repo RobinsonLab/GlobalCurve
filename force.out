@@ -1,0 +1,17 @@
+ force.out                                                               
+ Number of iterations:           85
+ Global Chi Sqr:    15.59084    
+ Analysis time:    13.62109    
+   #  Parameter      Value      Standard Deviation Est.
+   1 kon             1.8433E+07 +/-   4.258E+07
+   2 koff            2.0000E+02
+   3 f               1.4214E+00 +/-   1.151E+01
+   4 g               1.5000E+01
+   5 u              -1.9514E+00 +/-   1.846E+00
+   6 v               2.8266E+00 +/-   3.455E+00
+   7 w              -3.8646E-02 +/-   4.389E-01
+   8 x               5.6866E-01 +/-   1.079E+00
+   9 z              -2.0000E+00
+  10 offset1        -5.4045E-03 +/-   2.803E-01
+  11 scale1          9.4198E+00 +/-   5.555E+00
+  12 bounds          1.0000E+00

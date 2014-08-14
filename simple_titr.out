@@ -1,0 +1,10 @@
+ simple_titr.out                                                         
+ Number of iterations:           73
+ Global Chi Sqr:    7.134253    
+ Analysis time:    3.843750    
+   #  Parameter      Value      Standard Deviation Est.
+   1 K1              1.0092E+03 +/-   1.528E+04
+   2 K2a             1.8642E+02 +/-   2.803E+03
+   3 f_min1          1.0000E+00
+   4 f_max1          0.0000E+00
+   5 bounds          1.0000E+00

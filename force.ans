@@ -1,0 +1,61 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   2.1786E+07 1.0E6
+ 2 koff      t   2.0000E+02  1.0
+ 3 f         f   7.3068E-01  0.001
+ 4 g         t   1.5000E+01   0.0001
+ 5 u         f   -1.0  -4.0
+ 6 v         f   1.0  -4.0
+ 7 w         f   -0.1  -4.0
+ 8 x         f   0.3 -4.0
+ 9 z         t   -2.0  -4.0
+ % 5 u         f   1.4328E-01  0.0001
+ % 6 v         f   2.0833E+01  0.0001
+ % 7 w         f   7.4976E-01  0.0001
+ % 8 x         f   1.8590E+00  0.0001
+ % 9 z         t   1.0-02  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 offset1 f 0.0 -0.5
+ 11 scale1 f 9.8293E+00 0.5
+ 12 bounds t 1.0 0.4
+ % 15 pctTnC t 0.02 0.1
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    pCa_force_no_oscillation.dat
+ %   Ca_pts2.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+   			# end
+			10
+  			11
+			# end
+ 		# end function 1
+ 		12
+ 	# end functions
+ 	12
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 5 0.087 0.107
+ # end
+ # end
+ # end rigorous

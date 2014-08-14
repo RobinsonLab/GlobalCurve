@@ -1,0 +1,61 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   1.67E+07 1.0E4  1.0E10
+ 2 koff      t   4.00E+02  100   1000
+ 3 f         f   1.0382E+01       0.001 100.0
+ 4 g         t   60.0          5    100
+ 5 u         f   1.7173E+00         -4.0 4.0
+ 6 v         f   -3.7713E+00         -4.0 4.0
+ 7 w         f   3.9302E-01        0.001 4.0
+ 8 x         f   -1.8431E+00         -4.0 4.0
+ 9 z         f   1.0022E+00        -4.0 4.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 Ca_offset t -1E-7     -1.0 1.0
+ 11 Ca_scale t 8E-6    -1.0 1.0
+ 12 F_offset t 0.0      -0.2 100.0
+ 13 F_scale t 1.0       0.0001 10.0
+ 14 bounds t 1.0              0.4    10.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    single_twitch.dat
+ 	% begin functions
+	1.0 idk time Ca force
+ 		% function 1
+ 		isometric_twitch_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			10
+  			11
+   			# end
+			12
+  			13
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

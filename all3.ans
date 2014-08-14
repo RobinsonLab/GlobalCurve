@@ -1,0 +1,195 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   7.32E+07 1.0E4  1.0E10
+ 2 koff      t   2.00E+02  100   1000
+ 3 f         f   7.6E+00        0.001 10.0
+ 4 g         t   15.0          5    100
+ 5 u         f   2.5         -4.0 4.0
+ 6 v         f   -3.2         -4.0 4.0
+ 7 w         f   0.44        0.001 4.0
+ 8 x         f   -1.6         -4.0 4.0
+ 9 z         f   1.58        -4.0 4.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 offset1 t 0.0     -1.0 1.0
+ 11 offset2 t 0.0    -1.0 1.0
+ 12 scale1 f 1.0      0.2 100.0
+ 13 scale2 f 1.45       0.0001 10.0
+ 14 bounds t 1.0              0.4    10.0
+%
+ 15 offset1 t 0.0     -1.0 1.0
+ 16 offset2 t 0.0    -1.0 1.0
+ 17 scale1 f 1.0      0.2 100.0
+ 18 scale2 f 1.45       0.0001 10.0
+%
+ 19 offset1 t 0.0     -1.0 1.0
+ 20 offset2 t 0.0    -1.0 1.0
+ 21 scale1 f 1.0      0.2 100.0
+ 22 scale2 f 1.45       0.0001 10.0
+%
+% 23 offset1 t 0.0     -1.0 1.0
+% 24 offset2 t 0.0    -1.0 1.0
+% 25 scale1 f 8.657      0.2 100.0
+% 26 scale2 f 0.23       0.0001 10.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    Force_92101a.dat
+ %   Ca_pts.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			10
+  			12
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+% Experiment 2
+    ATP_92101a.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_ATPase
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			13
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % --------------------------------------------------- 
+ % Experiment 3
+    Force_92101b.dat
+ %   Ca_pts.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			17
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+% Experiment 4
+    ATP_92101b.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_ATPase
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			16
+  			18
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % --------------------------------------------------- 
+ % Experiment 5
+    Force_92501a.dat
+ %   Ca_pts.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			19
+  			21
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+% Experiment 6
+    ATP_92501a.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_SS_ATPase
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			20
+  			22
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1df60420-7dab-44a1-8a6a-ba8235a9b94e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;f90;for;f;fpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{bec2bbea-9da3-4104-9efc-24241fdd5fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{4beba5fd-8a06-404a-bf78-925a234ad1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities\distributions_et_utilities">
+      <UniqueIdentifier>{3fae083c-345a-48cf-9f5f-4ba7f999b650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{18bdfc5a-a9ac-478b-8e80-c35d4278ed50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\fluorescence">
+      <UniqueIdentifier>{d0a99409-3829-4f5a-90df-beb92dd8b4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\fluorescence\dist_ET">
+      <UniqueIdentifier>{202fcf41-ba3b-4198-9ef1-5946e9787b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\fluorescence\diffuse">
+      <UniqueIdentifier>{e2bac50d-c782-4380-8ef1-4eff8d467e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\fluorescence\anisotropy">
+      <UniqueIdentifier>{0202aa44-c0bd-4afa-afa3-845928d34463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\constraints">
+      <UniqueIdentifier>{d846593d-ba2a-47f5-bf34-580d0108d97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\binding">
+      <UniqueIdentifier>{4efcb74b-2256-4c0d-b9a9-bcd01ff47ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\kinetics">
+      <UniqueIdentifier>{3e334299-8345-427b-9beb-d29783f86aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology">
+      <UniqueIdentifier>{08fa8152-ccdb-4649-b69b-2df6cc36758c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\three_state_A_M">
+      <UniqueIdentifier>{53944bc5-2c92-49ca-871b-68e025353016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\three_state_ktr">
+      <UniqueIdentifier>{7844c237-cad2-42e6-9e5f-eaaf4791985e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\three_state_diazo_2">
+      <UniqueIdentifier>{89ff06bc-537b-4944-a006-493ae97b02e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\isometric_twitch">
+      <UniqueIdentifier>{dc34ebdf-9a83-423f-9790-ad14d4e038e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\isotonic_twitch">
+      <UniqueIdentifier>{0c0d9ec1-63cc-4988-bc2b-49d37b166be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\physiology\three_state_SS">
+      <UniqueIdentifier>{888f4e77-f20b-4734-b17b-92ed61f20977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models\dist_meas">
+      <UniqueIdentifier>{549b3a90-fafb-4f95-8b64-48ee92e8e7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\routines">
+      <UniqueIdentifier>{94e1ef42-bda1-4291-a7b7-f086cd002727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\routines\nr_routines">
+      <UniqueIdentifier>{aaf08d22-2242-4696-a140-1bd031415aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rigorous">
+      <UniqueIdentifier>{dd178606-7c7c-4f3c-8f00-c2573735eb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plots">
+      <UniqueIdentifier>{dd617f3a-88bd-4e34-a2a7-47800aac5539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bcad4c03-a384-4a65-8318-94be2e73819a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{be1e8924-b3d8-43e8-879a-037db59ad967}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="main\GlobalCurve.f90">
+      <Filter>Source Files\main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main\main.f90">
+      <Filter>Source Files\main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\calc_gamma_mean_hw.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\calc_gaus_mean_hw.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\calc_mom_gamma.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\calc_mom_gaus.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\gamma_dist.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\gaus_dist.f90">
+      <Filter>Source Files\utilities\distributions_et_utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\append_string.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\bisect.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\bisect2.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\derivative.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\dump_raw.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\error_handler.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\first_order_anharmonic.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\gaussian.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\get_ca.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\harmonic.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\make_out_file_name.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\nitems.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\normalize_alpha.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\round.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\simple_convolute.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\trim_string.f90">
+      <Filter>Source Files\utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\dist_et.f90">
+      <Filter>Source Files\models\fluorescence\dist_ET</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\gamma_decay.f90">
+      <Filter>Source Files\models\fluorescence\dist_ET</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\gamma_dist_et.f90">
+      <Filter>Source Files\models\fluorescence\dist_ET</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\gaus_decay.f90">
+      <Filter>Source Files\models\fluorescence\dist_ET</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\gaus_dist_et.f90">
+      <Filter>Source Files\models\fluorescence\dist_ET</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\diffuse.f90">
+      <Filter>Source Files\models\fluorescence\diffuse</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\horiz_polarized.f90">
+      <Filter>Source Files\models\fluorescence\anisotropy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\vert_polarized.f90">
+      <Filter>Source Files\models\fluorescence\anisotropy</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\disc_et.f90">
+      <Filter>Source Files\models\fluorescence</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\lifetime.f90">
+      <Filter>Source Files\models\fluorescence</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\order_1_anis.f90">
+      <Filter>Source Files\models\fluorescence</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\fluorescence\order_2_anis.f90">
+      <Filter>Source Files\models\fluorescence</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\constraints\frac.f90">
+      <Filter>Source Files\models\constraints</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\constraints\Ka_constrain.f90">
+      <Filter>Source Files\models\constraints</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\constraints\simple_constrain.f90">
+      <Filter>Source Files\models\constraints</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\binding\ca_gr_2_titr.f90">
+      <Filter>Source Files\models\binding</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\binding\frac_sat.f90">
+      <Filter>Source Files\models\binding</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\binding\hill.f90">
+      <Filter>Source Files\models\binding</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\binding\three_state_simple_model.f90">
+      <Filter>Source Files\models\binding</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\kinetics\dist_k.f90">
+      <Filter>Source Files\models\kinetics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\kinetics\gaus_dist_k.f90">
+      <Filter>Source Files\models\kinetics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\kinetics\gaus_k.f90">
+      <Filter>Source Files\models\kinetics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\kinetics\sum_of_exponentials.f90">
+      <Filter>Source Files\models\kinetics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\calc_three_state_A_M.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\odeint2.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\stiff2.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_A_M_ATPase.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_A_M_bound.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_A_M_force.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_A_M_norm_ATPase.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_A_M_norm_force.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_A_M\three_state_model.f90">
+      <Filter>Source Files\models\physiology\three_state_A_M</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_ktr\calc_three_state_ktr.f90">
+      <Filter>Source Files\models\physiology\three_state_ktr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_ktr\odeint_time.f90">
+      <Filter>Source Files\models\physiology\three_state_ktr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_ktr\three_state_ktr_ATPase.f90">
+      <Filter>Source Files\models\physiology\three_state_ktr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_ktr\three_state_ktr_bound.f90">
+      <Filter>Source Files\models\physiology\three_state_ktr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_ktr\three_state_ktr_force.f90">
+      <Filter>Source Files\models\physiology\three_state_ktr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_diazo_2\calc_three_state_diazo_2.f90">
+      <Filter>Source Files\models\physiology\three_state_diazo_2</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_diazo_2\three_state_diazo_2_force.f90">
+      <Filter>Source Files\models\physiology\three_state_diazo_2</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isometric_twitch\calc_isometric_twitch.f90">
+      <Filter>Source Files\models\physiology\isometric_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isometric_twitch\isometric_twitch_force.f90">
+      <Filter>Source Files\models\physiology\isometric_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isometric_twitch\odeint_time_contraction.f90">
+      <Filter>Source Files\models\physiology\isometric_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isometric_twitch\stiff3.f90">
+      <Filter>Source Files\models\physiology\isometric_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isometric_twitch\three_state_t_model.f90">
+      <Filter>Source Files\models\physiology\isometric_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isotonic_twitch\calc_isotonic_twitch.f90">
+      <Filter>Source Files\models\physiology\isotonic_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isotonic_twitch\isotonic_twitch_atpase.f90">
+      <Filter>Source Files\models\physiology\isotonic_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isotonic_twitch\load_clamp.f90">
+      <Filter>Source Files\models\physiology\isotonic_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\isotonic_twitch\odeint_time_isotonic.f90">
+      <Filter>Source Files\models\physiology\isotonic_twitch</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_ATPase.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_ATPase_RU_g.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_ATPase_S1_extr.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_ATPase_TnC_extr.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_force.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_force_NEM_S1.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_force_RU_g.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_force_S1_extr.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\physiology\three_state_SS\three_state_SS_force_TnC_extr.f90">
+      <Filter>Source Files\models\physiology\three_state_SS</Filter>
+    </CustomBuild>
+    <CustomBuild Include="models\ET_modeling\get_distance.f90">
+      <Filter>Source Files\models\dist_meas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\polint.f90">
+      <Filter>Source Files\routines\nr_routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\qromb.f90">
+      <Filter>Source Files\routines\nr_routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="utilities\trapzd.f90">
+      <Filter>Source Files\routines\nr_routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\add_noise_to_data.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\calc_chi_sqr.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\calc_covariance.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\calc_curvature_gradient.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\cluster.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\const_dest.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\convolute.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\expt_fit.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\expt_type_parser.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\generate_lamp.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\get_default.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\logic.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\marquadt.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\minimize.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\model_lexicon.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\output_results.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\plot_points.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\readans.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\rieman_integrate.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\shift.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\trapezoidal_integrate.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\tri_ge.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="routines\tri_mat_mult.f90">
+      <Filter>Source Files\routines</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\area_under_the_curve.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\arr_write.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\asymptotic_elipse.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\corners.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\crunch.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\do_bootstrap.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\f_conf.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\output_rig_res.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\pos.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\rigorous.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\sides_3D.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\update_fixed_param_val.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rigorous\wacko_func.f90">
+      <Filter>Source Files\rigorous</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\binding_plot.f90">
+      <Filter>Source Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\color_scheme.f90">
+      <Filter>Source Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\plot_driver.f90">
+      <Filter>Source Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\time_dom_fluor_plot.f90">
+      <Filter>Source Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="plots\time_dom_fluor_simul_plot.f90">
+      <Filter>Source Files\plots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_binding_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_constr_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_dist_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="h_dist_struct.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_fluor_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_fluor_wrapper_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_general_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_kinetics_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_params.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_physiology_models.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_plots.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_rigorous.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_routine_specific_vars.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_routines.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_struct.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_utils.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_vars.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\h_w_vars.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\Nr.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\Nrtype.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\Nrutil.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="header\transform_coords.f90">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bind_constr1.dat" />
+    <CustomBuild Include="Cys374_Mg.dat" />
+    <CustomBuild Include="zeros.dat" />
+  </ItemGroup>
+</Project>

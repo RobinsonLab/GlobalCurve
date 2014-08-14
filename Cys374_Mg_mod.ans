@@ -1,0 +1,71 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ % note for y and z we add 100 because don't want to go through a zero.
+ 1 x		 f   30.0 10.0 200.0
+ 2 y	     f   80.0 70.0 130.0
+ 3 z         f   80.0 70.0 130.0
+ 4 R0_1      t   39.1 1.0 100.00
+ 5 R0_3      t   44.9 1.0 100.00
+ 6 R0_4      t   41.5 1.0 100.00
+ 7 A_x_1     t   16.240 -100.0 100.00
+ 8 A_y_1     t   -10.255 -100.0 100.00
+ 9 A_z_1     t   5.618 -100.0 100.00
+ 10 A_x_3     t   15.959 -100.0 100.00   
+ 11 A_y_3     t   7.439 -100.0 100.00
+ 12 A_z_3     t   23.035 -100.0 100.00
+ 13 A_x_4     t   21.609 -100.0 100.00
+ 14 A_y_4     t   12.382 -100.0 100.00
+ 15 A_z_4     t   -16.318 -100.0 100.00
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 16 bounds t 1.0              0.4    10.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+ Cys374_Mg_mod.dat
+ %  Ca_pts.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		get_distance
+ 			1
+			2
+			3
+  			# end
+			4
+			5
+			6
+  			# end
+			7
+			10
+			13
+  			# end
+			8
+			11
+			14
+  			# end
+			9
+			12
+			15
+  			# end
+ 		# end function 1
+ 		16
+ 	# end functions
+ 	16
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

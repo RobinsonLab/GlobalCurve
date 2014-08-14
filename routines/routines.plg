@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: routines - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP2B4.TMP" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"../Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\code\globals\routines\tri_mat_mult.f90"
+"C:\code\globals\routines\tri_ge.f90"
+"C:\code\globals\routines\trapezoidal_integrate.f90"
+"C:\code\globals\routines\shift.f90"
+"C:\code\globals\routines\rieman_integrate.f90"
+"C:\code\globals\routines\readans.f90"
+"C:\code\globals\routines\model_lexicon.f90"
+"C:\code\globals\routines\get_default.f90"
+"C:\code\globals\routines\expt_fit.f90"
+"C:\code\globals\routines\convolute.f90"
+"C:\code\globals\routines\calc_chi_sqr.f90"
+]
+Creating temporary file "C:\WINDOWS\TEMP\RSP02B5.TMP" with contents
+[
+/nologo /out:"c:\code\lib\routines.lib" 
+.\Debug\calc_chi_sqr.obj
+.\Debug\convolute.obj
+.\Debug\expt_fit.obj
+.\Debug\get_default.obj
+.\Debug\model_lexicon.obj
+.\Debug\readans.obj
+.\Debug\rieman_integrate.obj
+.\Debug\shift.obj
+.\Debug\trapezoidal_integrate.obj
+.\Debug\tri_ge.obj
+.\Debug\tri_mat_mult.obj
+]
+Creating command line "link.exe -lib @C:\WINDOWS\TEMP\RSP02B5.TMP"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\code\globals\routines\tri_mat_mult.f90
+C:\code\globals\routines\tri_ge.f90
+C:\code\globals\routines\trapezoidal_integrate.f90
+C:\code\globals\routines\shift.f90
+C:\code\globals\routines\rieman_integrate.f90
+C:\code\globals\routines\readans.f90
+C:\code\globals\routines\model_lexicon.f90
+C:\code\globals\routines\get_default.f90
+C:\code\globals\routines\expt_fit.f90
+C:\code\globals\routines\convolute.f90
+C:\code\globals\routines\calc_chi_sqr.f90
+Creating library...
+
+
+
+<h3>Results</h3>
+routines.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

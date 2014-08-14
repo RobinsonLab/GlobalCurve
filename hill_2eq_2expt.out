@@ -1,0 +1,16 @@
+ hill_2eq_2expt.out                                                      
+ Number of iterations:           34
+ Global Chi Sqr:    3.429454    
+ Analysis time:    6.820312    
+   #  Parameter      Value      Standard Deviation Est.
+   1 pKd1            6.2419E+00 +/-   9.505E-01
+   2 n1              8.4549E-01 +/-   4.251E-01
+   3 pKd2            6.9525E+00 +/-   7.910E-01
+   4 n2              9.4166E-01 +/-   1.000E+00
+   5 f_min1         -1.2598E-02 +/-   4.254E-02
+   6 f_max1a         2.9152E-01 +/-   1.278E+00
+   7 f_max1b         7.0909E-01 +/-   1.265E+00
+   8 f_min2         -1.4143E-02 +/-   2.560E-02
+   9 f_max2a         1.0002E+00 +/-   1.471E+00
+  10 f_max2b         1.0100E-03 +/-   1.448E+00
+  11 bounds          1.0000E+00

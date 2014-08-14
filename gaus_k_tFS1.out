@@ -1,0 +1,11 @@
+ gaus_k.out                                                              
+ Number of iterations:           12
+ Global Chi Sqr:    10.71133    
+ Analysis time:    28.89062    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha          -1.0166E+00 +/-   3.132E+02
+   2 mean            2.7571E+01 +/-   3.631E+02
+   3 std             7.5998E+00 +/-   1.329E+02
+   4 dt             -3.5326E-03 +/-   1.118E+01
+   5 F0              9.6066E-01 +/-   2.292E-01
+   6 bounds          1.0000E+00

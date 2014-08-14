@@ -1,0 +1,11 @@
+ exp2.out                                                                
+ Number of iterations:            6
+ Global Chi Sqr:    1.304417    
+ Analysis time:    2.582031    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha1          1.0000E+00
+   2 tau1            3.8668E+01 +/-   2.565E+01
+   3 alpha2          2.0201E-01 +/-   2.103E+00
+   4 tau2            1.7399E+01 +/-   8.301E+01
+   5 bounds1         3.8477E+02 +/-   6.413E+02
+   6 qshift1        -1.7220E+01 +/-   3.603E+02

@@ -1,0 +1,19 @@
+ ida_glob.out                                                            
+ Number of iterations:           15
+ Global Chi Sqr:    1.180503    
+ Analysis time:    152.4062    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha1          1.6427E+00 +/-   1.304E+02
+   2 tau1            1.7966E-01 +/-   4.900E-01
+   3 alpha2          2.1570E+00 +/-   1.713E+02
+   4 tau2            2.0364E+00 +/-   1.008E+00
+   5 alpha3          1.6889E+00 +/-   1.342E+02
+   6 tau3            5.3574E+00 +/-   1.139E+00
+   7 R0              2.3000E+01
+   8 mu1             1.3859E+01 +/-   1.013E+01
+   9 sigma1          8.7297E+00 +/-   2.558E+00
+  10 frac            9.5000E-01
+  11 bounds1         3.1408E+02 +/-   2.492E+04
+  12 bounds2         3.4882E+02 +/-   2.770E+04
+  13 qshift1         6.3858E-01 +/-   2.406E+00
+  14 qshift2        -4.5643E-01 +/-   2.570E+00

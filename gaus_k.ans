@@ -1,0 +1,45 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 alpha      f   -1.06 -4.0 1.2
+ 2 mean	    f   40.0 15.0 300.0
+ 3 std      f   10.0 2.0 100.0
+ 4 dt		t   0.0 -.1 .1
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 5 F0 f 0.95 -1.0 3.0
+ 6 bounds t 1.0 0.4 4.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    TnTm_off.dat
+ 	% begin functions
+	1.0 kin pCa Fluor
+ 		% function 1
+ 		gaus_dist_k
+ 			1
+  			# end
+			2
+			3
+			4
+  			# end
+			5
+  			# end
+ 		# end function 1
+ 		6
+ 	# end functions
+ 	6
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

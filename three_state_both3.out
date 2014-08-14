@@ -1,0 +1,19 @@
+ three_state_both3.out                                                   
+ Number of iterations:            6
+ Global Chi Sqr:   0.1671492    
+ Analysis time:    20.65234    
+   #  Parameter      Value      Standard Deviation Est.
+   1 kon             9.9975E+05 +/-   2.844E+07
+   2 koff            5.5107E+01 +/-   1.471E+03
+   3 f               2.6637E+00 +/-   1.293E+01
+   4 g               1.5000E+00
+   5 u               1.0566E-01 +/-   3.922E-02
+   6 v               1.2060E+01 +/-   4.361E+00
+   7 w               8.1175E-01 +/-   4.699E-02
+   8 x               2.6258E+00 +/-   9.992E-01
+   9 z               3.0006E-01 +/-   1.703E-01
+  10 offset1        -2.7195E-02 +/-   3.722E-02
+  11 offset2        -2.4692E-02 +/-   2.734E-02
+  12 scale1          7.4236E+00 +/-   8.139E-01
+  13 scale2          1.8659E+00 +/-   2.635E-01
+  14 bounds          1.0000E+00

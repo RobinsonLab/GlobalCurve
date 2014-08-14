@@ -1,0 +1,80 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 pKd1     f   5.9 4.0 8.0
+ 2 n1	    f   1.0 0.7 1.2
+ 3 pKd2     f   6.9 4.0 8.0
+ 4 n2	    f   1.0 0.7 1.2
+ 5 f_min1   f	0.0 -0.1 0.1
+ 6 f_max1a  f	0.2 0.01 0.99
+ 7 f_max1b  f	0.8 0.01 0.99
+ 8 f_min2   f	0.0 -0.1 0.1
+ 9 f_max2a  f	0.8 0.01 2.0
+ 10 f_max2b f	0.2 0.001 2.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 11 bounds t 1.0 0.4 2.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    CIT_0_1_Mg.dat
+ 	% begin functions
+	1.0 bnd pCa Fluor
+ 		% function 1
+ 		hill
+ 			5
+			6
+			1
+			2
+  			# end
+ 		# end function 1
+ 		11
+		% function 1
+ 		hill
+ 			5
+			7
+			3
+			4
+  			# end
+ 		# end function 1
+ 		11
+	# end functions
+ 	11
+% Experiment 2
+    CIT_5_Mg.dat
+ 	% begin functions
+	10.0 bnd pCa Fluor
+ 		% function 1
+ 		hill
+ 			8
+			9
+			1
+			2
+  			# end
+ 		# end function 1
+ 		11
+		% function 1
+ 		hill
+ 			8
+			10
+			3
+			4
+  			# end
+ 		# end function 1
+ 		11
+	# end functions
+ 	11
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

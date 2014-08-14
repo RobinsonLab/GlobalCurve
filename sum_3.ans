@@ -1,0 +1,58 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min	
+ 1 alpha1 t 1.0 0.1 10.0
+ 2 tau1   f 18.6 5.0 100.0
+ 3 alpha2 f 0.67 0.02 10.0
+ 4 tau2   f 0.2 0.05 100.0
+ 5 alpha3 f 0.0 0.02 10.0
+ 6 tau3   f 2.0 0.05 100.0
+ 7 beta1  t 1.0 0.1 10.0
+ 8 phi1   t 18.6 5.0 100.0
+ 9 beta2  t 0.67 0.02 10.0
+ 10 phi2  t 0.2 0.05 100.0
+ 11 beta3 t 0.0 0.02 10.0
+ 12 phi3  t 2.0 0.05 100.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 13 bounds1 f 275.0 0.0 10000.0
+ 14 bounds2 t 275.0 0.0 10000.0
+ 15 bounds3 t 275.0 0.0 10000.0
+ 16 qshift1 t 0.1 -20.0 20.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % total intensity
+    m1mgv.sum
+ 	% ls_weight expt_type data_format units
+	1.0 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1
+ 		lifetime
+ 			1
+			3
+			5
+  			# end
+  			2
+			4
+			6 
+ 			# end			
+		# end function 1
+ 		13 
+ 	# end functions
+ 	16  
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

@@ -1,0 +1,59 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       t   1.0E7 1.0E4
+ 2 koff      t   100.0  1.0
+ 3 f         f   9.3219E-01  0.1
+ 4 g         t   10.0   0.0001
+ 5 u         f   1.4676E-01  0.0001
+ 6 v         f   1.5225E+01  0.0001
+ 7 w         f   7.5266E-01  0.0001
+ 8 x         f   1.7559E+00  0.0001
+ 9 z         f   4.0843E-02  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 pCa       t   5.85    5.0
+ 11 offset t 0.0 -0.5
+ 12 scale t 9.8092 0.2
+ 13 bounds t 1.0 0.4
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    simul.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_bapta_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			12
+  			# end
+			10
+  			# end
+ 		# end function 1
+ 		13
+ 	# end functions
+ 	13
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

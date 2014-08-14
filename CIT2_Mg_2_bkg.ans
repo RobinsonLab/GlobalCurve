@@ -1,0 +1,67 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min	max
+ % params for CI "background"
+ 1 alpha1 t 1.0 0.1 10.0
+ 2 tau1   f 5.8 1.0 100.0
+ 3 alpha2 f 4.0 0.02 10.0
+ 4 tau2   f 2.1 1.0 100.0
+ 5 alpha3 f 1.0 0.02 10.0
+ 6 tau3   f 1.0 0.1 100.0
+ % real params
+ 7 alpha1 t 1.0 0.1 10.0
+ 8 tau1   f 5.8 1.0 100.0
+ 9 alpha2 f 4.0 0.02 10.0
+ 10 tau2  f 2.1 1.0 100.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 11 bounds1 f 21.1.0 0.0 10000.0
+ 12 bounds2 f 220.0 0.0 10000.0
+ 13 qshift1 f 1.0 -20.0 20.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    CIT2_Mg.glo
+ 	% ls_weight expt_type data_format units
+	1.0 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1 - CI background
+ 		lifetime
+ 			1
+			3
+			5
+  			# end
+  			2
+			4
+			6 
+ 			# end			
+		# end function 1
+ 		11
+		% function 2
+ 		lifetime
+ 			7
+			9
+  			# end
+  			8
+			10 
+ 			# end			
+		# end function 2
+ 		12		 
+ 	# end functions
+ 	13  
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

@@ -1,0 +1,59 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   2.1786E+07 1.0E4
+ 2 koff      t   2.0000E+02  1.0
+ 3 f         f   7.3068E-01  0.001
+ 4 g         t   1.5000E+01   0.0001
+ 5 u         f   1.4328E-01  0.0001
+ 6 v         f   2.0833E+01  0.0001
+ 7 w         f   7.4976E-01  0.0001
+ 8 x         f   1.8590E+00  0.0001
+ 9 z         f   3.6482E-02  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 pCa    t 6.5  5.0
+ 11 offset t 0.0 -0.5
+ 11 scale1 f 9.8293E+00 0.2
+ 13 bounds t 1.0 0.4
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    ca_data.dat
+ 	% begin functions
+	1.0 bnd time force
+ 		% function 1
+ 		three_state_diazo_2_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			12
+  			# end
+			10
+  			# end
+ 		# end function 1
+ 		13
+ 	# end functions
+ 	13
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 1 24.9 25.1
+ 2 2.7 3.2
+ 6 0.91 1.06
+ # end
+ # end
+ # end rigorous

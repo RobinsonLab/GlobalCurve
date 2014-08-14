@@ -1,0 +1,41 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min	
+ 1 alpha1 t 1.0 0.0
+ 2 tau1   f 5.5 0.0
+ % 3 R0     t  30.0 10.0
+ % 4 mu1    f  30.0 10.0
+ % 5 sigma1 f  5.0 1.0
+ % 6 d1     f  1.0 0.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 3 bounds1 f 495.0 0.0
+ 4 qshift1 f 0.0 -20.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    jr20306.dat
+ 	% ls_weight expt_type data_format units
+	1.0 1 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1
+ 		lifetime
+ 			1
+  			# end
+  			2 
+ 			# end			
+		# end function 1
+ 		3 
+ 	# end functions
+ 	4  
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % 4 20.0 40.0
+ % 6 0.1 4.0
+ # end
+ # end
+ # end rigorous

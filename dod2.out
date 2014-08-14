@@ -1,0 +1,13 @@
+ dod2.out                                                                
+ Number of iterations:           14
+ Global Chi Sqr:    1.183047    
+ Analysis time:    4.121094    
+   #  Parameter      Value      Standard Deviation Est.
+   1 alpha1          1.4617E+00 +/-   1.821E+02
+   2 tau1            1.8496E-01 +/-   5.078E-01
+   3 alpha2          1.9794E+00 +/-   2.467E+02
+   4 tau2            2.0541E+00 +/-   1.071E+00
+   5 alpha3          1.5228E+00 +/-   1.893E+02
+   6 tau3            5.3804E+00 +/-   1.245E+00
+   7 bounds1         3.8247E+02 +/-   4.762E+04
+   8 qshift1        -5.0234E-01 +/-   2.786E+00

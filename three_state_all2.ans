@@ -1,0 +1,211 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   1.4818E7 1.0E4
+ 2 koff      f   80.118  1.0
+ 3 f         f   0.044452  0.001
+ 4 g         f   2.3542   0.0001
+ 5 u         f   0.21127  0.0001
+ 6 v         f   17.020  0.0001
+ 7 w         f   .69298  0.0001
+ 8 x         f   1.5402  0.0001
+ 9 z         f   0.038221  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 offset1 t -1.0946E-02 -4.0
+ 11 offset2 t -1.8395E-02 -4.0
+ 12 scale1 f 12.325 0.2
+ 13 scale2 f 1.9563 0.0001
+ 14 bounds t 1.0 0.4
+ 15 offset3 t 0.0 -0.5
+ 16 offset4 t 1.0 -0.5
+ 17 pCa_2  t 6.01    5.0 
+ 18 pCa_4  t 5.93    5.0 
+ 19 pCa_6  t 5.85    5.0 
+ 20 pCa_8  t 5.74    5.0 
+ 21 pCa_10 t 5.38    5.0 
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    pCa_force_no_oscillation.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_A_M_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			10
+  			12
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+% Experiment 2
+    pCa_ATPase_no_oscillation.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_A_M_ATPase
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			13
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % Experiment 3
+    ktr_simul_2.dat
+ 	% begin functions
+	0.05 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			12
+  			# end
+			17
+  			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % Experiment 4
+    ktr_simul_4.dat
+ 	% begin functions
+	0.05 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			12
+  			# end
+			18
+  			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % Experiment 5
+    ktr_simul_6.dat
+ 	% begin functions
+	0.05 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			12
+  			# end
+			19
+  			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % Experiment 6
+    ktr_simul_8.dat
+ 	% begin functions
+	0.05 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			12
+  			# end
+			20
+  			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ % Experiment 7
+    ktr_simul_10.dat
+ 	% begin functions
+	0.05 bnd pCa force
+ 		% function 1
+ 		three_state_ktr_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			15
+  			12
+  			# end
+			21
+  			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ none  ! error analysis method
+ f  ! skip_minimization
+ 5 0.087 0.107
+ # end
+ # end
+ # end rigorous

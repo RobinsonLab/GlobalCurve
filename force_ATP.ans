@@ -1,0 +1,84 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min
+ 1 kon       f   3.8E+07 1.0E4
+ 2 koff      t   2.0000E+02  1.0
+ 3 f         f   2.6  0.001
+ 4 g         t   15.0   0.0001
+ 5 u         f   1.4328E-01  0.0001
+ 6 v         f   2.0833E+01  0.0001
+ 7 w         f   7.4976E-01  0.0001
+ 8 x         f   1.8590E+00  0.0001
+ 9 z         f   3.6482E-02  0.0001
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 10 offset1 t 0.0 -4.0
+ 11 offset2 t 0.0 -4.0
+ 12 scale1 f 6.3 0.2
+ 13 scale2 f 1.1 0.0001
+ 14 bounds t 1.0 0.4
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % Experiment 1
+    Force_91301c.dat
+ %   Ca_pts.dat
+ % begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_A_M_force
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			10
+  			12
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+% Experiment 2
+    ATP_91301c.dat
+ 	% begin functions
+	1.0 bnd pCa force
+ 		% function 1
+ 		three_state_A_M_ATPase
+ 			1
+			2
+			3
+			4
+			5
+			6
+			7
+			8
+			9
+  			# end
+			11
+  			13
+			# end
+ 		# end function 1
+ 		14
+ 	# end functions
+ 	14
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

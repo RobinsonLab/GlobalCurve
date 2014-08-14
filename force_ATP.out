@@ -1,0 +1,19 @@
+ force_ATP.out                                                           
+ Number of iterations:           25
+ Global Chi Sqr:    762.1619    
+ Analysis time:    126.1094    
+   #  Parameter      Value      Standard Deviation Est.
+   1 kon             2.3407E+07 +/-   1.027E+10
+   2 koff            2.0000E+02
+   3 f               1.4438E+00 +/-   7.644E+02
+   4 g               1.5000E+01
+   5 u               2.7855E-01 +/-   4.074E+02
+   6 v               2.6514E+01 +/-   1.247E+04
+   7 w               6.5000E-01 +/-   4.410E+01
+   8 x               3.6089E-03 +/-   1.369E+01
+   9 z               2.1735E-01 +/-   3.549E+02
+  10 offset1         0.0000E+00
+  11 offset2         0.0000E+00
+  12 scale1          1.5142E+00 +/-   1.009E+02
+  13 scale2          1.6190E+00 +/-   1.649E+02
+  14 bounds          1.0000E+00

@@ -1,0 +1,21 @@
+ Cys374_Mg_mod.out                                                       
+ Number of iterations:           12
+ Global Chi Sqr:   3.3484326E-09
+ Analysis time:    8.410156    
+   #  Parameter      Value      Standard Deviation Est.
+   1 x               3.4367E+01 +/-   1.145E-08
+   2 y               9.6619E+01 +/-   3.518E-08
+   3 z               8.4177E+01 +/-   2.818E-08
+   4 R0_1            3.9100E+01
+   5 R0_3            4.4900E+01
+   6 R0_4            4.1500E+01
+   7 A_x_1           1.6240E+01
+   8 A_y_1          -1.0255E+01
+   9 A_z_1           5.6180E+00
+  10 A_x_3           1.5959E+01
+  11 A_y_3           7.4390E+00
+  12 A_z_3           2.3035E+01
+  13 A_x_4           2.1609E+01
+  14 A_y_4           1.2382E+01
+  15 A_z_4          -1.6318E+01
+  16 bounds          1.0000E+00

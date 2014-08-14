@@ -1,0 +1,19 @@
+f		% simulation
+0.999	% x: sets ET rmin and rmax in quadrature such that  (1.0-x) < TE < x
+100		% pts_per_dist; used in diffusion enhanced ET
+t		% plot out fluorescence on a log-linear plot
+0.001	% eps, used in derivative calculations
+1.0E+1 	% marquadt flambda initial guess
+100 		% maximum number of iterations
+0.0005  % chi sqr change tol
+0.00000001 % svd_tol(erance) (if val < svd_tol => val = 0.0
+10.0	% flambda multiplier/divisor
+f       % verbose mode
+2.5 	% rig_scale: lim=rig_scale*sqrt(cov(i,i))
+0.68	% confidence limit for rigorous analysis
+t		% manual grid search
+10		% grid size = +/- $ the minimum for manual grid search = .false.
+f		% hard copy output in color?
+t		% output to postscript = .true. else output to GIF
+1		% minimization: see minimize() for types
+200 	% number of bootstrap monte carlo analysis iterations

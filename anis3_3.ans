@@ -1,0 +1,112 @@
+ % --------------------------------------------------- 
+ % Fundemental Parameters
+ % Parameter #          Name          Fixed?  value	min	
+ 1 alpha1 t 1.0 0.1 10.0
+ 2 tau1   t 8.3814E+00 5.0 100.0
+ 3 alpha2 t 1.2267E+00 0.02 10.0
+ 4 tau2   t 3.1908E-01 0.05 100.0
+ 5 alpha3 t 2.5453E+00 0.02 10.0
+ 6 tau3   t 1.9977E+01 0.05 100.0
+ 7 beta1  f 1.6557E-01 0.1 10.0
+ 8 phi1   f 8.5141E+01 5.0 100.0
+ 9 beta2  f 8.2223E-02 0.02 10.0
+ 10 phi2  f 4.8383E+00 0.05 100.0
+ 11 beta3 f 3.0038E-01 0.02 10.0
+ 12 phi3  f 3.5511E-02 0.005 100.0
+ # end
+ % --------------------------------------------------- 
+ % Ancillary Parameters
+ % Parameter #
+ 13 bounds1 t 6.5855E+02 0.0 10000.0
+ 14 bounds2 f 6.4845E+02 0.0 10000.0
+ 15 bounds3 t 275.0 0.0 10000.0
+ 16 qshift1 f 0.1 -20.0 20.0
+ # end
+ % begin experiments
+ % --------------------------------------------------- 
+ % total intensity
+    m1mgv.sum
+ 	% ls_weight expt_type data_format units
+	1.0 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1
+ 		lifetime
+ 			1
+			3
+			5
+  			# end
+  			2
+			4
+			6 
+ 			# end			
+		# end function 1
+ 		13 
+ 	# end functions
+ 	16  
+ % vertically polarized
+    m1mgv.ver
+ 	% ls_weight expt_type data_format units
+	1.0 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1
+ 		vert_polarized
+ 			1
+			3
+			5
+  			# end
+  			2
+			4
+			6 
+ 			# end			
+ 			7
+			9
+			11
+  			# end
+  			8
+			10
+			12 
+ 			# end			
+		# end function 1
+ 		14 
+ 	# end functions
+ 	16  
+ % horizonatlly polarized, G factor corrected
+    m1mgv.hor
+ 	% ls_weight expt_type data_format units
+	1.0 gtd Time(nsec) Counts
+	% begin functions
+ 		% function 1
+ 		horiz_polarized
+ 			1
+			3
+			5
+  			# end
+  			2
+			4
+			6 
+ 			# end			
+ 			7
+			9
+			11
+  			# end
+  			8
+			10
+			12 
+ 			# end			
+		# end function 1
+ 		14 
+ 	# end functions
+ 	16
+ # end experiments
+ % ====================================================
+ % rigorous parameter estimates
+ % grid  ! error analysis method
+ none
+ f  ! skip_minimization
+ % 7 0.65 0.9
+ % 5 0.1 0.21
+ % 6 5.0 40.0
+ 8 1.0 3.0
+ # end
+ # end
+ # end rigorous

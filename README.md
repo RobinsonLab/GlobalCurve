@@ -18,3 +18,7 @@ Usage
 =====
 
 In windows, use PowerShell
+
+## Example of analysis
+
+2 exponential fitting

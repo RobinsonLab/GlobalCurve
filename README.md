@@ -7,7 +7,7 @@ This is script-driven global non-linear least squares parameter estimation writt
 Installation
 ============
 - install globalcurve in ``c:\bin\``
-- install pgplot in ``c:\``
+- install pgplot plotting library (dependency) in ``c:\``
 
 Set [system Path (environement variable)](http://www.computerhope.com/issues/ch000549.htm) to recognize the globalcurve executable. Value on my computer is 
 ```

@@ -58,7 +58,7 @@ In windows, use PowerShell. To access documents, which are shared using VMWARE, 
 - data format is that of a .prn file (can export from excel)
 - windows formated EOL: CR+LF
 - usually given a .glo extension.
-- Format: The IRF and the # counts in each channel as two columns. Column 3, which specifies the precision of the data (sd) is optional. When omitted, the analysis assumed Poisson noise, where sd = sqrt(n). The header contains, successively, 
+- Format: Columns 1 and 2 are IRF counts, respectively. Rows are channels 0, 1, 2, .... Column 3, which specifies the precision of the data (sd) is optional. When omitted, the analysis assumed Poisson noise, where sd = sqrt(n). The header contains, successively, 
     * time/channel (ns/chan) 
     * start channel of the convolution
     * stop channel of chi^2 calculation

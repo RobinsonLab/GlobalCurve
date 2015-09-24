@@ -1,7 +1,7 @@
 GlobalCurve
 ===========
 
-global curve fitting software
+This is script-driven global non-linear least squares parameter estimation written in Fortran 90. The software was originally written to analyzed time resolved fluorescence data (decay). The observed fluorescence decay is the intrinsic decay convolved with the *instrument resonse function (IRF)*.
 
 
 Installation

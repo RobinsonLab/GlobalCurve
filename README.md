@@ -6,10 +6,13 @@ global curve fitting software
 
 Installation
 ============
-- install globalcurve
-- install pgplot
+- install globalcurve in ``c:\bin\``
+- install pgplot in ``c:\``
 
-Set system path to recognize the globalcurve executable.
+Set [system Path (environement variable)](http://www.computerhope.com/issues/ch000549.htm) to recognize the globalcurve executable. Value on my computer is 
+```
+%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\bin\GlobalCurve
+```
 
 
 ### pgplot

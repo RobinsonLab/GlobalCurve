@@ -5,7 +5,7 @@ This is script-driven global non-linear least squares parameter estimation writt
 
 ### Quirks ###
 - One must have global.in file (a .conf or .ini file) in the working directory of the .ans file. This controls the nature of the analysis, like the target change in chi^2 for stopping the analysis. For this reason, the .in file must be **local**.
-- When data needs to be pre- or post-processed in some way during the anslysis, this is specified in the data file itself. This specification is in the header of the data file. 
+- When data needs to be pre- or post-processed in some way during the anslysis, this is specified in the data file itself.  Specification for processing the data is in the header of the data file. 
 
 ### Limitations ###
 - This is compiled softare. Additional models must be compiled. 

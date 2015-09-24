@@ -43,10 +43,15 @@ In windows, use PowerShell. To access documents, which are shared using VMWARE, 
 ## Analysis examples
 
 ### 2 exponential fitting of TCSPC data
-- data file is usually given a .glo extension.
-- The IRF and the # counts in each channel as two columns. The header contains, successively, 
+#### Data file
+- data format is that of a .prn file (can export from excel)
+- windows formated EOL: CR+LF
+- usually given a .glo extension.
+- Format: The IRF and the # counts in each channel as two columns. The header contains, successively, 
     * time/channel (ns/chan) 
     * start channel of the convolution
     * stop channel of chi^2 calculation
     * start channel of the chi^2 calculation
+
+#### Ans file (analysis script)
 

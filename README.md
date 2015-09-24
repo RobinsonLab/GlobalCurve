@@ -1,7 +1,15 @@
 GlobalCurve
 ===========
 
-This is script-driven global non-linear least squares parameter estimation written in Fortran 90. The software was originally written to analyzed time resolved fluorescence data (decay). The observed fluorescence decay is the intrinsic decay convolved with the *instrument resonse function (IRF)*.
+This is script-driven global non-linear least squares parameter estimation written in Fortran 90. The software was originally written to analyze time resolved fluorescence data (decay). The observed fluorescence decay is the intrinsic decay convolved with the *instrument resonse function (IRF)*. 
+
+### Limitations ###
+- This is compiled softare. Additional models must be compiled. 
+- This was written using the Digital/Compac/Fujitsu/Intel F90 compiler, which uses digital extensions of the F90 standared. This restricts one to development on DOS.
+- Srcripts (usually called .ans files) are written in a custom format. These days, one would write in YAML or similar.
+- One must have global.in file (a .conf file) in the working directory of the .ans file. 
+- Software is **very unforgiving** of errors in data format or script files.
+
 
 
 Installation

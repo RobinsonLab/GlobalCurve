@@ -66,3 +66,18 @@ In windows, use PowerShell. To access documents, which are shared using VMWARE, 
 
 #### Ans file (analysis script)
 
+## Simulations
+- in default.in set simulation to true.
+- run globalcurve as usual
+- enter the .ans file name that contains the model you wish to simulate
+- give the tcal, lims1, lims2, lims3, which appear in the header of .glo files
+```
+0.016,55,350,103
+- enter the fwhm of the impulse resonse curve. Here it is modeled as a gaussian. 
+```
+0.05
+```
+- add nose?
+```
+y
+```
